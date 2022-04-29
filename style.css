@@ -19,7 +19,7 @@ body {
     padding: 0 5px;
     display: flex;
     height: 19px;
-    width: 500px;
+    width: 20em;
   }
   
   .progress-value {
