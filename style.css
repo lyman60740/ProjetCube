@@ -1,0 +1,85 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background: #1d0335;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100&display=swap');
+  
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 19px;
+    width: 500px;
+  }
+  
+  .progress-value {
+    animation: load 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 12px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+  .fond{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column-reverse;
+    align-self: flex-end;
+        
+    
+  }
+  .loading {
+      width: auto;
+      display: flex;
+    flex-direction: column;
+    margin-bottom: -6em;
+  }
+
+  
+  .loading p {
+    align-self:center;
+    color:#fff;
+    font-size: 1em;
+    font-weight:200;
+    font-family: 'Poppins', sans-serif;
+  }
+  .logo img{
+    width:250px;
+    height: 255px;
+  } 
+  .logo p {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3.3em;
+    margin-top: -58px;
+
+  }
+
+.scalling{
+    width: auto;
+    height: auto;
+}
+.home {
+    width: 100%;
+    height: 100%;
+}
